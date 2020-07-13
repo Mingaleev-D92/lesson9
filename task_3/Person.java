@@ -30,7 +30,8 @@ import java.util.Scanner;
             } else if (userChoice.equals("Swim")) {
                 woman.swimming();
                 System.out.printf("Now %s have %s energy and %s health", userName, userEnergy + woman.getEnergy(), userHealth + woman.getHealth());
-            } }else if (userType.equals("M")) {
+            }
+            } else if (userType.equals("M")) {
             Man man = new Man(userName, userAge, userEnergy, userHealth);
             System.out.println("What you want him to do? Run or Swim?");
             String userChoice2 = inputScanner.next();
