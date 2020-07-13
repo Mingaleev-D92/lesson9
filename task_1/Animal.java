@@ -22,7 +22,4 @@ public abstract class Animal {
 
     public abstract AnimalType getType();
 
-    public abstract void running();
-
-    public abstract void swimming();
 }
