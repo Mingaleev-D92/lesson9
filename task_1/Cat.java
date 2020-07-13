@@ -21,9 +21,4 @@ public class Cat extends Animal implements Run {
     public void running() {
         System.out.println("Cat is running!");
     }
-
-    @Override
-    public void swimming() {
-
-    }
 }
